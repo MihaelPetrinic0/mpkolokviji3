@@ -1,0 +1,85 @@
+body {
+    background-image: url('slike/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif; 
+    color: #333;
+}
+
+.custom-font {
+    font-family: 'MihaelPetrinic'
+}
+
+h1, h2 {
+    text-align: center;
+    color: #fff;
+    margin: 0.5em 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 20px auto; 
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    background-color: navy;
+    padding: 10px 20px;
+    border: 2px solid darkblue;
+    margin: 0 10px;
+}
+
+nav li:active {
+    background-color: darkblue;
+}
+
+nav li a {
+    color: white;
+    font-family: 'Pacifico', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    background-color: purple;
+    color: #333;
+}
+
+main img, main video {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+p, h3, h4 {
+    background-color: lightblue;
+    padding: 10px;
+}
+.prva-sekcija {
+ 	background-color: mediumpurple;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.druga-sekcija {
+ 	background-color: mediumpurple;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.treca-sekcija {
+ 	background-color: mediumpurple;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.cetvrta-sekcija {
+ 	background-color: mediumpurple;
+    padding: 20px;
+    margin-bottom: 20px;
+}
